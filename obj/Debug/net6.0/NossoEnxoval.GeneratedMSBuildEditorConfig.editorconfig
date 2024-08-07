@@ -18,12 +18,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\danid\Desktop\NossoEnxoval\NossoEnxoval\NossoEnxoval
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Banheiro/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuaGVpcm9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Cozinha/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ296aW5oYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Sala/AdicionarItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYVxBZGljaW9uYXJJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Sala/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Shared/Error.cshtml]
