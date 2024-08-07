@@ -40,3 +40,4 @@ C:\Users\danid\Desktop\NossoEnxoval\NossoEnxoval\NossoEnxoval\obj\Debug\net6.0\r
 C:\Users\danid\Desktop\NossoEnxoval\NossoEnxoval\NossoEnxoval\obj\Debug\net6.0\NossoEnxoval.pdb
 C:\Users\danid\Desktop\NossoEnxoval\NossoEnxoval\NossoEnxoval\obj\Debug\net6.0\NossoEnxoval.genruntimeconfig.cache
 C:\Users\danid\Desktop\NossoEnxoval\NossoEnxoval\NossoEnxoval\obj\Debug\net6.0\ref\NossoEnxoval.dll
+C:\Users\danid\Desktop\NossoEnxoval\NossoEnxoval\NossoEnxoval\obj\Debug\net6.0\NossoEnxoval.sourcelink.json

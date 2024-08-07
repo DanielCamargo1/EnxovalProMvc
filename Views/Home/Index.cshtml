@@ -1,8 +1,42 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Compras";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<style>
+    .card-img-top {
+        width: 100%;
+        height: 200px; /* Definindo uma altura fixa para as imagens */
+        object-fit: cover; /* Garante que a imagem seja redimensionada para caber, mantendo a proporção */
+    }
+</style>
+
+<div style="display:flex; flex-direction:row; gap:20px;">
+    <div class="card" style="width: 18rem;">
+        <img src="img/SalaDeEstar.jpg" class="card-img-top" alt="imagem Sala">
+        <div class="card-body">
+            <h5 class="card-title">Itens para Sala</h5>
+            <a href="#" class="btn btn-primary">Ver Itens</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="img/Cozinha.jpg" class="card-img-top" alt="imagem Cozinha">
+        <div class="card-body">
+            <h5 class="card-title">Itens para Cozinha</h5>
+            <a href="#" class="btn btn-primary">Ver Itens</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="img/Quarto.jpg" class="card-img-top" alt="imagem Quarto">
+        <div class="card-body">
+            <h5 class="card-title">Itens para Quarto</h5>
+            <a href="#" class="btn btn-primary">Ver Itens</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="img/banheiro.jpg" class="card-img-top" alt="imagem Banheiro">
+        <div class="card-body">
+            <h5 class="card-title">Itens para Banheiro</h5>
+            <a href="#" class="btn btn-primary">Ver Itens</a>
+        </div>
+    </div>
 </div>

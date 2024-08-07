@@ -13,6 +13,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\danid\\Desktop\\NossoEnxoval\\NossoEnxoval\\NossoEnxoval\\wwwroot\\img\\Cozinha.jpg",
+      "PackagePath": "staticwebassets\\img\\Cozinha.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danid\\Desktop\\NossoEnxoval\\NossoEnxoval\\NossoEnxoval\\wwwroot\\img\\Quarto.jpg",
+      "PackagePath": "staticwebassets\\img\\Quarto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danid\\Desktop\\NossoEnxoval\\NossoEnxoval\\NossoEnxoval\\wwwroot\\img\\SalaDeEstar.jpg",
+      "PackagePath": "staticwebassets\\img\\SalaDeEstar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danid\\Desktop\\NossoEnxoval\\NossoEnxoval\\NossoEnxoval\\wwwroot\\img\\banheiro.jpg",
+      "PackagePath": "staticwebassets\\img\\banheiro.jpg"
+    },
+    {
       "Id": "C:\\Users\\danid\\Desktop\\NossoEnxoval\\NossoEnxoval\\NossoEnxoval\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
