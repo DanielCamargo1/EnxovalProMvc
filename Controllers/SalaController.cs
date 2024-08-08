@@ -15,7 +15,8 @@ namespace NossoEnxoval.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var itens = _context.Intens.ToList();
+            return View(itens);
         }
 
         public IActionResult AdicionarItem()
@@ -26,9 +27,28 @@ namespace NossoEnxoval.Controllers
         [HttpPost]
         public IActionResult AdicionarItem(EnxovalModel item)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(item);
+            }
+            item.Comprado = false;
             _context.Intens.Add(item);
             _context.SaveChanges();
-            return View("Indexe");
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public IActionResult ItemComprado(int id)
+        {
+            var item = _context.Intens.Find(id);
+            if(item != null)
+            {
+                item.Comprado = true;
+                item.DataDaCompra = DateTime.Now;
+                _context.SaveChanges();
+                return RedirectToAction("Index", new { anchor = "itens-comprados" });
+            }
+            return NotFound();
         }
 
 

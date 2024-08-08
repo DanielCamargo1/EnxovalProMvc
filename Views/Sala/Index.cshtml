@@ -3,48 +3,51 @@
     ViewData["Title"] = "Sala";
 }
 
-<div>
-    <div class="container mt-5">
-        <div class="d-flex justify-content-between align-items-center mb-4">
-            <strong> <h1 class="display-4">ITENS PARA COMPRAR </h1>  </strong>
-            <a class="btn btn-success" asp-controller="Sala" asp-action="AdicionarItem">
-                <i class="fas fa-plus"></i> Cadastrar Item
-            </a>
-        </div>
-    @if(Model != null && Model.Any())
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="display-4">ITENS PARA COMPRAR</h1>
+        <a class="btn btn-success" asp-controller="Sala" asp-action="AdicionarItem">
+            <i class="fas fa-plus"></i> Cadastrar Item
+        </a>
+    </div>
+
+    @if (Model != null && Model.Any())
     {
         <div class="row">
-            @foreach (var item in Model)
+            @foreach (var item in Model.Where(i => !i.Comprado))
             {
-                @if(item.Comprado == false)
-                {
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h3 class="card-title">@item.Name</h3>
-                                <a asp-action="ItemComprado" class="btn btn-warning" asp-route-id="@item.Id">Comprado!</a>
-                                <a asp-action="EditarConta" class="btn btn-warning" asp-route-id="@item.Id">Atualizar</a>
-                                <a asp-action="ExcluirConta" class="btn btn-danger" asp-route-id="@item.Id">Excluir</a>
-                            </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">@item.Name</h3>
+                            <form asp-action="ItemComprado" method="post">
+                                <input type="hidden" name="id" value="@item.Id" />
+                                <button type="submit" class="btn btn-success">Comprado!</button>
+                            </form>
+                            <a asp-action="EditarConta" class="btn btn-warning" asp-route-id="@item.Id">Atualizar</a>
+                            <a asp-action="ExcluirConta" class="btn btn-danger" asp-route-id="@item.Id">Excluir</a>
                         </div>
                     </div>
-                   
-                } 
-                else{
-                    <h1>ITENS COMPRADOS</h1>
-                        <div class="col-md-4 mb-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h3 class="card-title">@item.Name</h3>
-                                    <p class="card-text">
-                                        <strong>Comprado em:</strong> @item.DataDaCompra.ToString("dd/MM/yyyy")<br>
-                                    </p>
-                                    <a asp-action="EditarConta" class="btn btn-warning" asp-route-id="@item.Id">Atualizar</a>
-                                    <a asp-action="ExcluirConta" class="btn btn-danger" asp-route-id="@item.Id">Excluir</a>
-                                </div>
-                            </div>
+                </div>
+            }
+        </div>
+
+        <h1 id="itens-comprados" class="mt-5">ITENS COMPRADOS</h1> <!-- Adicionado id para âncora -->
+        <div class="row">
+            @foreach (var item in Model.Where(i => i.Comprado))
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">@item.Name</h3>
+                            <p class="card-text">
+                                <strong>Comprado em:</strong> @item.DataDaCompra.ToString("dd/MM/yyyy")<br>
+                            </p>
+                            <a asp-action="EditarConta" class="btn btn-warning" asp-route-id="@item.Id">Atualizar</a>
+                            <a asp-action="ExcluirConta" class="btn btn-danger" asp-route-id="@item.Id">Excluir</a>
                         </div>
-                }
+                    </div>
+                </div>
             }
         </div>
     }
@@ -54,8 +57,4 @@
             Não há compras para a sala no momento.
         </div>
     }
-</>
-
-<div>
-
 </div>
