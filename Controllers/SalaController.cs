@@ -24,6 +24,16 @@ namespace NossoEnxoval.Controllers
             return View();
         }
 
+        public IActionResult EditarItem()
+        {
+            return View();
+        }
+
+        public IActionResult ExcluirItem()
+        {
+            return View();
+        }
+
         [HttpPost]
         public IActionResult AdicionarItem(EnxovalModel item)
         {
