@@ -13,6 +13,7 @@ namespace NossoEnxoval.Controllers
             _context = context;
         }
 
+
         public IActionResult Index()
         {
             var itens = _context.Intens.ToList();
@@ -23,15 +24,35 @@ namespace NossoEnxoval.Controllers
         {
             return View();
         }
-
-        public IActionResult EditarItem()
+        
+        public IActionResult EditarItem(int? id)
         {
-            return View();
+            if(id == null || id == 0)
+            {
+                return NotFound();
+            }
+
+            var item = _context.Intens.Find(id);
+            if(item != null)
+            {
+                return View(item);
+            }
+            return NotFound();
         }
 
-        public IActionResult ExcluirItem()
+        public IActionResult ExcluirItem(int? id)
         {
-            return View();
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+
+            var item = _context.Intens.Find(id);
+            if (item != null)
+            {
+                return View(item);
+            }
+            return NotFound();
         }
 
         [HttpPost]
@@ -61,7 +82,27 @@ namespace NossoEnxoval.Controllers
             return NotFound();
         }
 
+        [HttpPost]
+        public IActionResult EditarItem(EnxovalModel item)
+        {
+            if (!ModelState.IsValid) {
+                return View(item);
+            }
+            _context.Intens.Update(item);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
 
-
+        [HttpPost]
+        public IActionResult ExcluirItem(EnxovalModel item)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(item);
+            }
+            _context.Intens.Remove(item);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }

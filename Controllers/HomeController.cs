@@ -1,21 +1,25 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using NossoEnxoval.Models;
 using System.Diagnostics;
+using NossoEnxoval.Data;
 
 namespace NossoEnxoval.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly EnxovalDbContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, EnxovalDbContext context)
         {
             _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var itens = _context.Intens.ToList();
+            return View(itens);
         }
 
         public IActionResult Privacy()

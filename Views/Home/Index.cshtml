@@ -1,64 +1,156 @@
-﻿@{
+﻿@model IEnumerable<EnxovalModel>
+@{
     ViewData["Title"] = "Compras";
 }
 
 <style>
     body {
-        background-color: #E5E4E2; 
+        background-color: #E5E4E2;
     }
 
     .card-img-top {
         width: 100%;
-        height: 200px; /* Definindo uma altura fixa para as imagens */
-        object-fit: cover; /* Garante que a imagem seja redimensionada para caber, mantendo a proporção */
+        height: 200px;
+        object-fit: cover;
     }
 
     h1 {
         text-align: center;
-        margin: auto;
+        margin: 20px 0;
     }
 
     .btn-custom {
         background-color: #E9C9B4;
         border-color: #E9C9B4;
-        color: black; 
+        color: black;
     }
 
         .btn-custom:hover {
             background-color: #AE9686;
-            border-color:#AE9686;
+            border-color: #AE9686;
         }
 </style>
 
 <h1>Nosso Enxoval</h1>
 
-<div style="display:flex; flex-direction:row; gap:20px;  margin-top:20px;">
-    <div class="card" style="width: 18rem;">
-        <img src="img/SalaDeEstar.jpg" class="card-img-top" alt="imagem Sala">
-        <div class="card-body">
-            <h5 class="card-title">Itens para Sala</h5>
-            <a asp-action="Index" asp-controller="Sala" class="btn btn-primary btn-custom">Ver Itens</a>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card" style="width: 100%;">
+                <img src="img/SalaDeEstar.jpg" class="card-img-top" alt="imagem Sala">
+                <div class="card-body">
+                    <h5 class="card-title">Itens para Sala</h5>
+                    <a asp-action="Index" asp-controller="Sala" class="btn btn-primary btn-custom">Ver Itens</a>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img src="img/Cozinha.jpg" class="card-img-top" alt="imagem Cozinha">
-        <div class="card-body">
-            <h5 class="card-title">Itens para Cozinha</h5>
-            <a asp-action="Index" asp-controller="Cozinha"  class="btn btn-primary btn-custom">Ver Itens</a>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card" style="width: 100%;">
+                <img src="img/Cozinha.jpg" class="card-img-top" alt="imagem Cozinha">
+                <div class="card-body">
+                    <h5 class="card-title">Itens para Cozinha</h5>
+                    <a asp-action="Index" asp-controller="Cozinha" class="btn btn-primary btn-custom">Ver Itens</a>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img src="img/Quarto.jpg" class="card-img-top" alt="imagem Quarto">
-        <div class="card-body">
-            <h5 class="card-title">Itens para Quarto</h5>
-            <a asp-action ="Index" asp-controller="Quarto" class="btn btn-primary btn-custom">Ver Itens</a>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card" style="width: 100%;">
+                <img src="img/Quarto.jpg" class="card-img-top" alt="imagem Quarto">
+                <div class="card-body">
+                    <h5 class="card-title">Itens para Quarto</h5>
+                    <a asp-action="Index" asp-controller="Quarto" class="btn btn-primary btn-custom">Ver Itens</a>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img src="img/banheiro.jpg" class="card-img-top" alt="imagem Banheiro">
-        <div class="card-body">
-            <h5 class="card-title">Itens para Banheiro</h5>
-            <a asp-action="Index" asp-controller="Banheiro" class="btn btn-primary btn-custom">Ver Itens</a>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card" style="width: 100%;">
+                <img src="img/banheiro.jpg" class="card-img-top" alt="imagem Banheiro">
+                <div class="card-body">
+                    <h5 class="card-title">Itens para Banheiro</h5>
+                    <a asp-action="Index" asp-controller="Banheiro" class="btn btn-primary btn-custom">Ver Itens</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card" style="width: 100%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px; overflow: hidden;">
+                <div class="card-header text-white text-center" style="font-size: 1.25rem; background-color:#AE9686;">
+                     Comprados
+                </div>
+                <div class="card-body">
+                    @{
+                        int quantidadeComprado = 0;
+                        if (Model != null)
+                        {
+                            foreach (var item in Model)
+                            {
+                                if (item.Comprado == true)
+                                {
+                                    quantidadeComprado++;
+                                }
+                            }
+                        }
+                    }
+                    <h5 class="text-center" style="color: #AE9686; font-size: 2rem; margin-top: 1rem;">
+                        @quantidadeComprado
+                    </h5>
+                </div>
+                <div class="card-footer text-muted text-center" style="background-color: #E5E4E2;">
+                    Itens comprados
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card" style="width: 100%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px; overflow: hidden;">
+                <div class="card-header text-white text-center" style="font-size: 1.25rem; background-color:#AE9686;">
+                    Para Comprar
+                </div>
+                <div class="card-body">
+                    @{
+                        int quantidadePComprar = 0;
+                        if (Model != null)
+                        {
+                            foreach (var item in Model)
+                            {
+                                if (item.Comprado == false)
+                                {
+                                    quantidadePComprar++;
+                                }
+                            }
+                        }
+                    }
+                    <h5 class="text-center" style="color: #AE9686; font-size: 2rem; margin-top: 1rem;">
+                        @quantidadePComprar
+                    </h5>
+                </div>
+                <div class="card-footer text-muted text-center" style="background-color: #E5E4E2;">
+                    Itens não comprados
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card" style="width: 100%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px; overflow: hidden;">
+                <div class="card-header text-white text-center" style="font-size: 1.25rem; background-color:#AE9686;">
+                    Cadastrados
+                </div>
+                <div class="card-body">
+                    @{
+                        int quantidade = 0;
+                        if (Model != null)
+                        {
+                            foreach (var item in Model)
+                            {
+                                quantidade++;
+                            }
+                        }
+                    }
+                    <h5 class="text-center" style="color: #AE9686; font-size: 2rem; margin-top: 1rem;">
+                        @quantidade
+                    </h5>
+                </div>
+                <div class="card-footer text-muted text-center" style="background-color: #E5E4E2;">
+                    Itens Cadastrados
+                </div>
+            </div>
         </div>
     </div>
 </div>
