@@ -16,7 +16,7 @@ namespace NossoEnxoval.Controllers
 
         public IActionResult Index()
         {
-            var itens = _context.Intes.ToList();
+            var itens = _context.Quarto.ToList();
             return View(itens);
         }
 
@@ -32,7 +32,7 @@ namespace NossoEnxoval.Controllers
                 return NotFound();
             }
 
-            var item = _context.Intes.Find(id);
+            var item = _context.Quarto.Find(id);
             if (item != null)
             {
                 return View(item);
@@ -47,7 +47,7 @@ namespace NossoEnxoval.Controllers
                 return NotFound();
             }
 
-            var item = _context.Intes.Find(id);
+            var item = _context.Quarto.Find(id);
             if (item != null)
             {
                 return View(item);
@@ -63,7 +63,7 @@ namespace NossoEnxoval.Controllers
                 return View(item);
             }
             item.Comprado = false;
-            _context.Intes.Add(item);
+            _context.Quarto.Add(item);
             _context.SaveChanges();
             return RedirectToAction("Index");
         }
@@ -71,7 +71,7 @@ namespace NossoEnxoval.Controllers
         [HttpPost]
         public IActionResult ItemComprado(int id)
         {
-            var item = _context.Intes.Find(id);
+            var item = _context.Quarto.Find(id);
             if (item != null)
             {
                 item.Comprado = true;
@@ -89,7 +89,7 @@ namespace NossoEnxoval.Controllers
             {
                 return View(item);
             }
-            _context.Intes.Update(item);
+            _context.Quarto.Update(item);
             _context.SaveChanges();
             return RedirectToAction("Index");
         }
@@ -101,7 +101,7 @@ namespace NossoEnxoval.Controllers
             {
                 return View(item);
             }
-            _context.Intes.Remove(item);
+            _context.Quarto.Remove(item);
             _context.SaveChanges();
             return RedirectToAction("Index");
         }
