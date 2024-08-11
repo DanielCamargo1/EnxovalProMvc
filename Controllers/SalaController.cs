@@ -16,7 +16,7 @@ namespace NossoEnxoval.Controllers
 
         public IActionResult Index()
         {
-            var itens = _context.Intens.ToList();
+            var itens = _context.Intes.ToList();
             return View(itens);
         }
 
@@ -32,7 +32,7 @@ namespace NossoEnxoval.Controllers
                 return NotFound();
             }
 
-            var item = _context.Intens.Find(id);
+            var item = _context.Intes.Find(id);
             if(item != null)
             {
                 return View(item);
@@ -47,7 +47,7 @@ namespace NossoEnxoval.Controllers
                 return NotFound();
             }
 
-            var item = _context.Intens.Find(id);
+            var item = _context.Intes.Find(id);
             if (item != null)
             {
                 return View(item);
@@ -63,7 +63,7 @@ namespace NossoEnxoval.Controllers
                 return View(item);
             }
             item.Comprado = false;
-            _context.Intens.Add(item);
+            _context.Intes.Add(item);
             _context.SaveChanges();
             return RedirectToAction("Index");
         }
@@ -71,7 +71,7 @@ namespace NossoEnxoval.Controllers
         [HttpPost]
         public IActionResult ItemComprado(int id)
         {
-            var item = _context.Intens.Find(id);
+            var item = _context.Intes.Find(id);
             if(item != null)
             {
                 item.Comprado = true;
@@ -88,7 +88,7 @@ namespace NossoEnxoval.Controllers
             if (!ModelState.IsValid) {
                 return View(item);
             }
-            _context.Intens.Update(item);
+            _context.Intes.Update(item);
             _context.SaveChanges();
             return RedirectToAction("Index");
         }
@@ -100,7 +100,7 @@ namespace NossoEnxoval.Controllers
             {
                 return View(item);
             }
-            _context.Intens.Remove(item);
+            _context.Intes.Remove(item);
             _context.SaveChanges();
             return RedirectToAction("Index");
         }
