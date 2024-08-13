@@ -18,6 +18,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\danid\Desktop\NossoEnxoval\NossoEnxoval\NossoEnxoval
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Banheiro/AdicionarItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuaGVpcm9cQWRpY2lvbmFySXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Banheiro/EditarItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuaGVpcm9cRWRpdGFySXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Banheiro/ExcluirItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuaGVpcm9cRXhjbHVpckl0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Banheiro/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuaGVpcm9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
