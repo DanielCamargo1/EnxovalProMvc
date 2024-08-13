@@ -18,8 +18,9 @@ namespace NossoEnxoval.Controllers
 
         public IActionResult Index()
         {
-            var itens = _context.Intens.ToList();
-            return View(itens);
+            var TodosOsItens = _context.Sala.ToList().Concat(_context.Cozinha.ToList())
+                .Concat(_context.Banheiro.ToList()).Concat(_context.Quarto.ToList());
+            return View(TodosOsItens);
         }
 
         public IActionResult Privacy()
