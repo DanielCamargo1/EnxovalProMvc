@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NossoEnxoval.Data;
 
@@ -10,9 +11,10 @@ using NossoEnxoval.Data;
 namespace NossoEnxoval.Migrations
 {
     [DbContext(typeof(EnxovalDbContext))]
-    partial class EnxovalDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240814005635_return")]
+    partial class @return
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
