@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\img\\banheiro.jpg"
     },
     {
+      "Id": "C:\\Users\\danid\\Desktop\\NossoEnxoval\\NossoEnxoval\\NossoEnxoval\\wwwroot\\img\\cama.png",
+      "PackagePath": "staticwebassets\\img\\cama.png"
+    },
+    {
       "Id": "C:\\Users\\danid\\Desktop\\NossoEnxoval\\NossoEnxoval\\NossoEnxoval\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

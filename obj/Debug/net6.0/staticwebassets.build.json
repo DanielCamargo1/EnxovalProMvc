@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3c3LOnNdzP3bNlHsj5D7PG9lq4RdVMJsgPnwr89Ok+c=",
+  "Hash": "iIpEKSnpn0jQZF4JgsBULrlJTq2JLNifLr8AwnjmQUY=",
   "Source": "NossoEnxoval",
   "BasePath": "_content/NossoEnxoval",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\banheiro.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\danid\\Desktop\\NossoEnxoval\\NossoEnxoval\\NossoEnxoval\\wwwroot\\img\\cama.png",
+      "SourceId": "NossoEnxoval",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danid\\Desktop\\NossoEnxoval\\NossoEnxoval\\NossoEnxoval\\wwwroot\\",
+      "BasePath": "_content/NossoEnxoval",
+      "RelativePath": "img/cama.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\cama.png"
     },
     {
       "Identity": "C:\\Users\\danid\\Desktop\\NossoEnxoval\\NossoEnxoval\\NossoEnxoval\\wwwroot\\img\\Cozinha.jpg",
