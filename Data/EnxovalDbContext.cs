@@ -10,9 +10,6 @@ namespace NossoEnxoval.Data
 
         }
 
-        public DbSet<EnxovalModel> Sala { get; set; }  
-        public DbSet<EnxovalModel> Cozinha { get; set; }  
-        public DbSet<EnxovalModel> Banheiro { get; set; }  
-        public DbSet<EnxovalModel> Quarto { get; set; }  
+        public DbSet<EnxovalModel> Itens { get; set; }
     }
 }
