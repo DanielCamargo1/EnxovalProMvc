@@ -64,6 +64,7 @@ namespace NossoEnxoval.Controllers
             }
             item.Comprado = false;
             item.Comodo = "Banheiro";
+            item.Descricao = "Padrão";
             _context.Itens.Add(item);
             _context.SaveChanges();
             return RedirectToAction("Index");
@@ -90,6 +91,8 @@ namespace NossoEnxoval.Controllers
             {
                 return View(item);
             }
+            item.Comodo = "Banheiro";
+            item.Descricao = "Padrão";
             _context.Itens.Update(item);
             _context.SaveChanges();
             return RedirectToAction("Index");

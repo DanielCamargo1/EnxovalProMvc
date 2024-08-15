@@ -92,6 +92,8 @@ namespace NossoEnxoval.Controllers
             if (!ModelState.IsValid) {
                 return View(item);
             }
+            item.Comodo = "Sala";
+            item.Descricao = "Descrição Padrão";
             _context.Itens.Update(item);
             _context.SaveChanges();
             return RedirectToAction("Index");
