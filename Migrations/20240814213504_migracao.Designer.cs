@@ -11,8 +11,8 @@ using NossoEnxoval.Data;
 namespace NossoEnxoval.Migrations
 {
     [DbContext(typeof(EnxovalDbContext))]
-    [Migration("20240807114850_firstMigration")]
-    partial class firstMigration
+    [Migration("20240814213504_migracao")]
+    partial class migracao
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -27,22 +27,27 @@ namespace NossoEnxoval.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
+                    b.Property<string>("Comodo")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.Property<bool>("Comprado")
                         .HasColumnType("tinyint(1)");
 
                     b.Property<DateTime>("DataDaCompra")
                         .HasColumnType("datetime(6)");
 
+                    b.Property<string>("Descricao")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<double>("Valor")
-                        .HasColumnType("double");
-
                     b.HasKey("Id");
 
-                    b.ToTable("Intens");
+                    b.ToTable("Itens");
                 });
 #pragma warning restore 612, 618
         }

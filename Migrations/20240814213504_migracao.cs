@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace NossoEnxoval.Migrations
 {
-    public partial class firstMigration : Migration
+    public partial class migracao : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -14,20 +14,23 @@ namespace NossoEnxoval.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
-                name: "Intens",
+                name: "Itens",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     Name = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
+                    Descricao = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    DataDaCompra = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     Comprado = table.Column<bool>(type: "tinyint(1)", nullable: false),
-                    Valor = table.Column<double>(type: "double", nullable: false),
-                    DataDaCompra = table.Column<DateTime>(type: "datetime(6)", nullable: false)
+                    Comodo = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Intens", x => x.Id);
+                    table.PrimaryKey("PK_Itens", x => x.Id);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
         }
@@ -35,7 +38,7 @@ namespace NossoEnxoval.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Intens");
+                name: "Itens");
         }
     }
 }

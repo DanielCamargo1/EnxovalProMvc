@@ -58,15 +58,18 @@ namespace NossoEnxoval.Controllers
         [HttpPost]
         public IActionResult AdicionarItem(EnxovalModel item)
         {
-            if (!ModelState.IsValid)
-            {
-                return View(item);
-            }
             item.Comprado = false;
             item.Comodo = "Sala";
-            _context.Itens.Add(item);
-            _context.SaveChanges();
-            return RedirectToAction("Index");
+            item.Descricao = "Descrição Padrão";
+            if (ModelState.IsValid)
+            {
+                _context.Itens.Add(item);
+                _context.SaveChanges();
+                return RedirectToAction("Index");
+
+            }
+            return NotFound();
+
         }
 
         [HttpPost]
