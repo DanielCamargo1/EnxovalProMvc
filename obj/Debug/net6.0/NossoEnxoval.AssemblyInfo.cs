@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NossoEnxoval")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7483784676da9e4663133b9a9b72a3360949ba82")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a4af84c849e68189c3f3beb609056c0b7f0ebf2")]
 [assembly: System.Reflection.AssemblyProductAttribute("NossoEnxoval")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NossoEnxoval")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

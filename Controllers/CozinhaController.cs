@@ -62,6 +62,7 @@ namespace NossoEnxoval.Controllers
             {
                 return View(item);
             }
+            item.Comodo = "Cozinha";
             item.Comprado = false;
             _context.Itens.Add(item);
             _context.SaveChanges();
