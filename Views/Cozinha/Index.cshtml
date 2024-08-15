@@ -14,7 +14,8 @@
 </style>
 <div class="container mt-5">
     <div class="d-flex justify-content-between align-items-center mb-4">
-        <h1 class="display-4">ITENS PARA COMPRAR</h1>
+        <h1>Cozinha</h1>
+        <h2 class="display-4">ITENS PARA COMPRAR</h2>
         <a class="btn btn-success" asp-controller="Cozinha" asp-action="AdicionarItem">
             <i class="fas fa-plus"></i> Cadastrar Item
         </a>
@@ -50,7 +51,7 @@
             }
         </div>
 
-        <h1 id="itens-comprados" class="mt-5">ITENS COMPRADOS</h1> <!-- Adicionado id para âncora -->
+        <h2 id="itens-comprados" class="mt-5">ITENS COMPRADOS</h2> <!-- Adicionado id para âncora -->
         <div class="row">
             @foreach (var item in Model.Where(i => i.Comprado))
             {
