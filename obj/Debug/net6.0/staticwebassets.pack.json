@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\img\\Cozinha.jpg"
     },
     {
+      "Id": "C:\\Users\\danid\\Desktop\\NossoEnxoval\\NossoEnxoval\\NossoEnxoval\\wwwroot\\img\\Home.jpg",
+      "PackagePath": "staticwebassets\\img\\Home.jpg"
+    },
+    {
       "Id": "C:\\Users\\danid\\Desktop\\NossoEnxoval\\NossoEnxoval\\NossoEnxoval\\wwwroot\\img\\Quarto.jpg",
       "PackagePath": "staticwebassets\\img\\Quarto.jpg"
     },
@@ -31,6 +35,10 @@
     {
       "Id": "C:\\Users\\danid\\Desktop\\NossoEnxoval\\NossoEnxoval\\NossoEnxoval\\wwwroot\\img\\cama.png",
       "PackagePath": "staticwebassets\\img\\cama.png"
+    },
+    {
+      "Id": "C:\\Users\\danid\\Desktop\\NossoEnxoval\\NossoEnxoval\\NossoEnxoval\\wwwroot\\img\\itens.jpg",
+      "PackagePath": "staticwebassets\\img\\itens.jpg"
     },
     {
       "Id": "C:\\Users\\danid\\Desktop\\NossoEnxoval\\NossoEnxoval\\NossoEnxoval\\wwwroot\\js\\site.js",
