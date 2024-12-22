@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "d77vgNAzDJ0NIKq27rHBT8ZSFVgZ9g5T2ybJiEazt3y354KCFtJXxXk1xhIkaIMkbTwqyHF62UOFWHIOxBGgpw==",
+  "dgSpecHash": "YSLAFui5kJ2Drrb1qvj1SWf5H2IOX+QDpjxfp/xUI5S5gyLb54gu2uZxwASZGVr6gMfy2ibKZ3n1+kH7eMMMXw==",
   "success": true,
   "projectFilePath": "C:\\Users\\danid\\Desktop\\NossoEnxoval\\NossoEnxoval\\NossoEnxoval\\NossoEnxoval.csproj",
   "expectedPackageFiles": [
@@ -25,10 +25,10 @@
     "C:\\Users\\danid\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\danid\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
     "C:\\Users\\danid\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Users\\danid\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\danid\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\danid\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\danid\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+    "C:\\Users\\danid\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\danid\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\danid\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\danid\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
   ],
   "logs": []
 }
