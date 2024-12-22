@@ -1,0 +1,15 @@
+C:\Users\danid\Desktop\NossoEnxoval\NossoEnxoval\NossoEnxoval\out\NossoEnxoval.exe
+C:\Users\danid\Desktop\NossoEnxoval\NossoEnxoval\NossoEnxoval\out\appsettings.Development.json
+C:\Users\danid\Desktop\NossoEnxoval\NossoEnxoval\NossoEnxoval\out\appsettings.json
+C:\Users\danid\Desktop\NossoEnxoval\NossoEnxoval\NossoEnxoval\out\NossoEnxoval.dll
+C:\Users\danid\Desktop\NossoEnxoval\NossoEnxoval\NossoEnxoval\out\NossoEnxoval.runtimeconfig.json
+C:\Users\danid\Desktop\NossoEnxoval\NossoEnxoval\NossoEnxoval\out\NossoEnxoval.pdb
+C:\Users\danid\Desktop\NossoEnxoval\NossoEnxoval\NossoEnxoval\out\Microsoft.EntityFrameworkCore.dll
+C:\Users\danid\Desktop\NossoEnxoval\NossoEnxoval\NossoEnxoval\out\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\danid\Desktop\NossoEnxoval\NossoEnxoval\NossoEnxoval\out\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\danid\Desktop\NossoEnxoval\NossoEnxoval\NossoEnxoval\out\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\danid\Desktop\NossoEnxoval\NossoEnxoval\NossoEnxoval\out\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\danid\Desktop\NossoEnxoval\NossoEnxoval\NossoEnxoval\out\MySqlConnector.dll
+C:\Users\danid\Desktop\NossoEnxoval\NossoEnxoval\NossoEnxoval\out\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\danid\Desktop\NossoEnxoval\NossoEnxoval\NossoEnxoval\out\System.Diagnostics.DiagnosticSource.dll
+C:\Users\danid\Desktop\NossoEnxoval\NossoEnxoval\NossoEnxoval\out\NossoEnxoval.deps.json

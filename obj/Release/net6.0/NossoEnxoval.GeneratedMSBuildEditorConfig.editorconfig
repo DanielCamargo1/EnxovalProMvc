@@ -1,0 +1,107 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = NossoEnxoval
+build_property.RootNamespace = NossoEnxoval
+build_property.ProjectDir = C:\Users\danid\Desktop\NossoEnxoval\NossoEnxoval\NossoEnxoval\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\danid\Desktop\NossoEnxoval\NossoEnxoval\NossoEnxoval
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Banheiro/AdicionarItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuaGVpcm9cQWRpY2lvbmFySXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Banheiro/EditarItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuaGVpcm9cRWRpdGFySXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Banheiro/ExcluirItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuaGVpcm9cRXhjbHVpckl0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Banheiro/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuaGVpcm9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Cozinha/AdicionarItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ296aW5oYVxBZGljaW9uYXJJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Cozinha/EditarItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ296aW5oYVxFZGl0YXJJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Cozinha/ExcluirItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ296aW5oYVxFeGNsdWlySXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Cozinha/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ296aW5oYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Quarto/AdicionarItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhcnRvXEFkaWNpb25hckl0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Quarto/EditarItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhcnRvXEVkaXRhckl0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Quarto/ExcluirItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhcnRvXEV4Y2x1aXJJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Quarto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhcnRvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Sala/AdicionarItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYVxBZGljaW9uYXJJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Sala/EditarItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYVxFZGl0YXJJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Sala/ExcluirItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYVxFeGNsdWlySXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Sala/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/NossoEnxoval/NossoEnxoval/NossoEnxoval/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-z0j6x8w2mf
